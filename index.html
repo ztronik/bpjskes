@@ -370,7 +370,7 @@
 </h2>
         <div class="form-group">
 			<label for="nomor">Nomor Kartu (13 Digit)</label>
-			<input type="text" id="nomor" placeholder="Contoh: 0001234567890" maxlength="13">
+			<input type="text" id="nomor" placeholder="Contoh: 0001234567890" maxlength="13" inputmode="numeric" pattern="[0-9]*">
 			<div id="nomor-error" style="display:none; color: #dc2626; font-size: 12px; margin-top: 4px; font-weight: bold;">
 				⚠️ Nomor Kartu harus 13 digit!
 			</div>
@@ -409,14 +409,14 @@
 
         <div class="form-group">
 			<label for="tgl_lahir">Tanggal Lahir (DD-MM-YYYY)</label>
-			<input type="text" id="tgl_lahir" placeholder="Contoh: 17-08-1945" maxlength="10">
+			<input type="text" id="tgl_lahir" placeholder="Contoh: 17-08-1945" maxlength="10" inputmode="numeric" pattern="[0-9]*">
 			<div id="tgl-lahir-error" style="display:none; color: #dc2626; font-size: 12px; margin-top: 4px; font-weight: bold;">
 				⚠️ Format tanggal harus DD-MM-YYYY (10 karakter)!
 			</div>
 		</div>
         <div class="form-group">
 			<label for="nik">NIK (16 Digit)</label>
-			<input type="text" id="nik" placeholder="Contoh: 3603071234567890" maxlength="16">
+			<input type="text" id="nik" placeholder="Contoh: 3603071234567890" maxlength="16" inputmode="numeric" pattern="[0-9]*">
 			<div id="nik-error" style="display:none; color: #dc2626; font-size: 12px; margin-top: 4px; font-weight: bold;">
 				⚠️ NIK harus 16 digit!
 			</div>
@@ -857,4 +857,3 @@
 </body>
 
 </html>
-
